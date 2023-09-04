@@ -8,6 +8,13 @@
     margin-right: 20px; /* Espacio entre botones */
     border-radius: 5px; /* Borde redondeado */
 }
+.boton-grande:hover{
+    transform: scale(2);
+    transition: transform 1s;
+    background-color: #4000ff; /* Color de fondo */
+    color: #25f848;
+    border-radius: 100px;
+}
 
 /* Estilos para el contenedor de los botones */
 .botones-container {
